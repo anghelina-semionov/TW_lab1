@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>LA MUSIQUE</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="images/favicon.ico">
+
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+        <!--Material Icon -->
+        <link rel="stylesheet" type="text/css" href="css/materialdesignicons.min.css" />
+
+        <!--pe-icon-7 Icon -->
+        <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css" />
+
+        <!-- Custom  css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+
+        <header class="sticky">
+            
+
+            <!--Navbar Start-->
+            <nav class="navbar navbar-expand-lg fixed-top navbar-custom" id="navbar">
+                <div class="container-fluid">
+                    <!-- LOGO -->
+                    <a class="logo text-uppercase" href="index.html">
+                        <img src="images/logo-light-4.png" alt="" class="logo-light" height="20" />
+                        <img src="images/logo-dark-2.png" alt="" class="logo-dark" height="20" />
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto navbar-center" id="mySidenav">
+                            <li class="nav-item active">
+                                <a href="index.html" class="nav-link">Accueil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="new-pages-stream.html" class="nav-link">Stream</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="new-pages-library.html" class="nav-link">Bibliothèque</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown">
+                                    <a class="nav-link dropdown-toggle arrow-none" href="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                             Nom d'utilisateur <i class="mdi mdi-chevron-down ml-1"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="profile.html">Profil</a>
+                                        <a class="dropdown-item" href="favourite.html">Favoris</a>
+                                        <a class="dropdown-item" href="following.html">Abonnements</a>
+                                        <a class="dropdown-item" href="parameters.html">Paramètres</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="pages-logout.html">Se déconnecter</a>
+                                    </div>                                                               
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+        </header>
+
+        <!-- title start -->
+        <section class="page-header-box bg-primary">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="text-center">
+                            <h3 class="page-header-title text-white">Bibliothèque</h3>
+                        </div>
+                    </div>
+                </div> <!--end row-->
+            </div> <!--end container-->
+        </section>
+        <!-- title end -->
+
+        <!-- blog start -->
+        <section class="section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">   
+                            <div class="col-12">
+                                <div class="card-box">
+                                    <div class="row">
+                                        <div class="col-lg-8">
+                                            <form class="form-inline">
+                                                <div class="form-group">
+                                                    <label for="inputPassword2" class="sr-only">Rechercher</label>
+                                                    <input type="search" class="form-control" id="inputPassword2" placeholder="Rechercher...">
+                                                </div>   
+                                            </form>
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <div class="text-lg-right mt-3 mt-lg-0">
+                                                <a href="#custom-modal" class="btn btn-danger waves-effect waves-light" data-animation="fadein" data-plugin="custommodal" data-overlayColor="#38414a"><i class="mdi mdi-plus-circle mr-1"></i>Uploader</a>
+                                            </div>
+                                        </div><!-- end col-->
+                                    </div> <!-- end row -->
+                                </div> <!-- end card-box -->
+                            </div><!-- end col-->
+                        </div>
+                         <!-- end row -->
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="mt-4">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination pagination-rounded justify-content-center">
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">
+                                                    <i class="mdi mdi-chevron-left"></i>  
+                                                </a>
+                                            </li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item">
+                                                <a class="page-link" href="#">
+                                                    <i class="mdi mdi-chevron-right"></i>  
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end row -->
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="blog-right-sidebar">
+                            <div class="widget widget-categories card mb-4">
+                                <div class="p-4">
+                                    <h4 class="widget-title mt-0">Suggestions</h4>
+                                    <hr>
+                                    <div>
+                                    <div class="popular-post media">
+                                            <img src="images/Simon Chylinski.jpg" class="img-fluid rounded mr-3" alt="" height="60" width="70">
+                                            <div class="media-body">
+                                              <h5 class="mt-0 font-14"><a href="#" class="text-dark">Simon Chylinski</a></h5>
+                                              <button type="button" class="btn btn-success btn-xs waves-effect mb-2 waves-light">Follow</button>   
+                                            </div>
+                                    </div>
+                                    <hr>
+                                    <div class="popular-post media">
+                                            <img src="images/Joel Schoch.jpg" class="img-fluid rounded mr-3" alt="" height="60" width="70">
+                                            <div class="media-body">
+                                              <h5 class="mt-0 font-14"><a href="#" class="text-dark">Joel Schoch</a></h5>
+                                              <button type="button" class="btn btn-success btn-xs waves-effect mb-2 waves-light">Follow</button>   
+                                            </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        
+                            <div class="widget widget-popular-post card mb-4">
+                                <div class="p-4">
+                                    <h4 class="widget-title mt-0">J'aime</h4>
+                                    <hr>
+                                    <div class="popular-post media">
+                                        <img src="images/play-button.png" class="img-fluid rounded mr-3" alt="" height="15" width="15">
+                                        <div class="media-body">   
+                                            <h5 class="mt-0 font-14"><a href="#" class="text-dark">Into The Unknown</a></h5>
+                                                <span class="text-muted">Simon Chylinski</span>  
+                                        </div>
+                                    </div>
+                                    <div class="popular-post media">
+                                        <img src="images/play-button.png" class="img-fluid rounded mr-3" alt="" height="15" width="15">
+                                        <div class="media-body">
+                                            <h5 class="mt-0 font-14"><a href="#" class="text-dark">Colored Engine</a></h5>
+                                            <span class="text-muted">Joel Schoch</span>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+                            <div class="widget card mb-4">
+                                <div class="p-4">
+                                    <h4 class="widget-title mt-0">Historique d'écoute</h4>
+                                    <hr>
+                                    <ul class="list-unstyled mb-0">
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="widget widget-tag-cloud card mb-4">
+                                <div class="p-4">
+                                    <h4 class="widget-title mt-0">Tags</h5>
+                                    <hr>
+                                    <div class="tagcloud">
+                                        <a href="#">Simon Chylinski</a>
+                                        <a href="#">Joel Schoch</a>
+                                        <a href="#">Soundtrack</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container-fluid -->
+        </section>
+        <!-- blog end -->
+    
+
+        <!-- footer start -->
+        <footer class="bg-dark footer text-white">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <h5 class="footer-title text-white mt-3 mb-2">À propos</h5>
+                        <ul class="list-unstyled footer-list">
+                            <li><a href="about.html">À propos de nous</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-7">
+                        <h5 class="footer-title text-white mt-3 mb-2">Social</h5>
+                        <ul class="list-unstyled footer-list">
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Twitter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5 class="footer-title text-white mt-3 mb-2">Assistance</h5>
+                        <ul class="list-unstyled footer-list">
+                            <li><a href="contact.html">Assistance & Soutien</a></li>
+                            <li><a href="">Informations légales</a></li>
+                            <li><a href="">Termes & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="py-3">
+                            <div class="text-center">
+                                <p class="text-white-50">2020 © LA MUSIQUE. Design by <a href="" target="_blank" class="text-white-50">Semionov</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- container-fluid end -->
+        </footer>
+        <!-- footer end -->
+    
+
+        
+        <!-- javascript -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+
+        <!-- custom js -->
+        <script src="js/app.js"></script>
+    </body>
+
+</html>
